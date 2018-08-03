@@ -1,0 +1,109 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+
+@media (min-width: 992px) {
+  body {
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.nav-bar-blue{
+  background: #1C2D5B;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-item{
+  font-size:14px;
+}
+
+.nav-link{
+
+  font-weight:normal;
+}
+
+
+.upper-nav{
+
+  font-size:13px;
+  color:#626e8e
+
+}
+
+.upper-nav i{
+  color:white;
+}
+
+.bottom-header{
+  background-color: #C91616;
+  color:white;
+  padding:20px;
+  text-align: center;
+  font-size:14px;
+}
+
+.header-image{
+  height:500px;
+  width:500px;
+}
+
+.border-button {
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: auto 0px;
+  cursor: pointer;
+  background-color:#C91616;
+  color:white;
+  border: 2px solid white;
+}
+
+.splash-content{
+  padding:75px;
+  height:500px;
+  background-image: url("../images/splash.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size:100% ;
+  color:white;
+}
+
+.splash-content p{
+  max-width: 500px;
+  font-size:14px
+}
+
+.splash-content button{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: white;
+  color:white;
+  border: 2px solid white;
+  padding:10px 30px;
+  margin: 10px;
+ 
+}
+
+.button-container{
+ padding-top:20px;
+}
