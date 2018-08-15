@@ -20,6 +20,10 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
+    <!--Gallery req -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+
+
   </head>
 
   <body>
@@ -79,18 +83,68 @@
       
       </h1>
       <!-- Image Header -->
-      <div class="booking-container">
-        <div style="margin:20px">
-            <h1 style="text-align: center">Book Your Event Today!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales laoreet turpis,
-               id condimentum est aliquam et. Curabitur eu lectus diam. Aenean egestas ultrices.</p> 
-          </div>
+      <div class="gallery-subheader">
+          <h2>Gallery</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ipsum urna, condimentum eu quam eu, auctor consequat est. Nullam rhoncus volutpat lorem, vel venenatis erat. Quisque pharetra, metus at pulvinar ullamcorper</p>
+        
         </div>
       
-      <!-- Booking Widget -->
-      <a id="TTE-575157e7-40ce-41ff-ac89-00d552917ea7" href="https://10to8.com/book/zrxditdqjjitfbsdbrrze-free/" target="_blank">See Online Booking Page</a> <script src="https://d3saea0ftg7bjt.cloudfront.net/embed/js/embed.min.js"></script> <script> window.TTE.init({ targetDivId: "TTE-575157e7-40ce-41ff-ac89-00d552917ea7", uuid: "575157e7-40ce-41ff-ac89-00d552917ea7", }); </script>
       <!-- Marketing Icons Section -->
-     
+      <div class="container gallery-container">
+            <div class="tz-gallery">
+        
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="./images/park.jpg">
+                            <img src="./images/park.jpg" alt="Park">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="./images/bridge.jpg">
+                            <img src="./images/bridge.jpg" alt="Bridge">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <a class="lightbox" href="./images/tunnel.jpg">
+                            <img src="./images/tunnel.jpg" alt="Tunnel">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="./images/coast.jpg">
+                            <img src="./images/coast.jpg" alt="Coast">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="./images/rails.jpg">
+                            <img src="./images/rails.jpg" alt="Rails">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="./images/traffic.jpg">
+                            <img src="./images/traffic.jpg" alt="Traffic">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="./images/rocks.jpg">
+                            <img src="./images/rocks.jpg" alt="Rocks">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="./images/benches.jpg">
+                            <img src="./images/benches.jpg" alt="Benches">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="./images/sky.jpg">
+                            <img src="./images/sky.jpg" alt="Sky">
+                        </a>
+                    </div>
+                </div>
+        
+            </div>
+        
+        </div>
+        
       <!-- /.row -->
 
     </div>
@@ -107,7 +161,10 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
   </body>
 
 </html>

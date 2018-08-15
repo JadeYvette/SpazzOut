@@ -5,11 +5,6 @@
  */
 
 
-@media (min-width: 992px) {
-  body {
-  }
-}
-
 .carousel-item {
   height: 65vh;
   min-height: 300px;
@@ -83,7 +78,6 @@ body {
   height:500px;
   background-image: url("../images/splash.jpg");
   background-repeat: no-repeat;
-  background-position: center; 
   background-size:100% ;
   color:white;
 }
@@ -92,6 +86,7 @@ body {
   max-width: 500px;
   font-size:14px
 }
+
 
 .splash-content button{
   background-color: Transparent;
@@ -106,4 +101,106 @@ body {
 
 .button-container{
  padding-top:20px;
+}
+.booking-container{
+  height:400px;
+  padding: 30px;
+  background-image: url("../images/slider2.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+  color:white;
+}
+
+.booking-content{
+  background-color:white !important;
+  border-radius: 5px;
+  margin-left:100px;
+  width: 50%;
+  margin: auto;
+}
+
+.booking-container p{
+  max-width: 500px;
+  font-size:14px;
+  text-align: center;
+  margin: auto;
+}
+
+.booking-content h1{
+  padding:20px;
+  text-align: center;
+}
+
+.booking-content h3{
+  font-size:14px;
+  padding:0px 10px 10px 10px;
+  
+}
+
+.gallery-subheader{
+  background-color: #C91616;
+  color:white;
+  padding:30px 45px;
+  margin: 0px 50px;
+  border-radius: 5px;
+}
+
+.gallery-subheader p{
+ font-size:14px;
+}
+/* gallery style*/
+
+.gallery-container h1 {
+  
+  margin-top: 70px;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: bold;
+}
+
+.gallery-container p.page-description {
+  text-align: center;
+  max-width: 800px;
+  margin: 25px auto;
+  color: #888;
+  font-size: 18px;
+}
+
+.tz-gallery {
+  padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+  width: 100%;
+  margin-bottom: 30px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+  border-radius: 0px;
+}
+
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+
+.gallery-img{
+  margin: 0px 45px;
+  max-width: 850px;
+
+}
+@media(max-width: 768px) {
+  body {
+      padding: 0;
+  }
+
+  .container.gallery-container {
+      border-radius: 0;
+  }
 }
